@@ -18,6 +18,7 @@
 		DA1E230C2B8A5A8E00B6D94F /* elements.json in Resources */ = {isa = PBXBuildFile; fileRef = DA1E230B2B8A5A8E00B6D94F /* elements.json */; };
 		DA1E230E2B8A5B2200B6D94F /* Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E230D2B8A5B2200B6D94F /* Elements.swift */; };
 		DA1E23102B8A617C00B6D94F /* ElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E230F2B8A617C00B6D94F /* ElementView.swift */; };
+		DA4358502B8A9FA300450761 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA43584F2B8A9FA300450761 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		DA1E230B2B8A5A8E00B6D94F /* elements.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = elements.json; sourceTree = "<group>"; };
 		DA1E230D2B8A5B2200B6D94F /* Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elements.swift; sourceTree = "<group>"; };
 		DA1E230F2B8A617C00B6D94F /* ElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementView.swift; sourceTree = "<group>"; };
+		DA43584F2B8A9FA300450761 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				DA1E230B2B8A5A8E00B6D94F /* elements.json */,
 				DA1E230D2B8A5B2200B6D94F /* Elements.swift */,
 				DA1E230F2B8A617C00B6D94F /* ElementView.swift */,
+				DA43584F2B8A9FA300450761 /* InfoView.swift */,
 			);
 			path = "periodictable Watch App";
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				DA1E22E02B8A59C100B6D94F /* ContentView.swift in Sources */,
 				DA1E23102B8A617C00B6D94F /* ElementView.swift in Sources */,
 				DA1E22DE2B8A59C100B6D94F /* periodictableApp.swift in Sources */,
+				DA4358502B8A9FA300450761 /* InfoView.swift in Sources */,
 				DA1E230E2B8A5B2200B6D94F /* Elements.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

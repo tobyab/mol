@@ -44,59 +44,27 @@ struct ElementView: View {
                     }
                     .font(.caption)
                     .opacity(0.7)
-                }.containerBackground(.blue.gradient, for: .tabView)
+                }.containerBackground(.mint.gradient, for: .tabView)
             }
             Section {
                 List {
-                    VStack(alignment: .leading) {
-                        Text("Name")
-                            .opacity(0.7)
-                        Text(element.name)
-                            .font(.title3)
+                    InfoView(title: "Name", value: element.name)
+                    InfoView(title: "Phase", value: element.phase)
+                    InfoView(title: "Category", value: element.category)
+                    InfoView(title: "Atomic Mass", value: String(element.atomicMass ?? 0))
+                    InfoView(title: "Molar Heat", value: String(element.molar_heat ?? 0))
+                    if let appearance = element.appearance {
+                        InfoView(title: "Appearance", value: appearance)
                     }
-                    VStack(alignment: .leading) {
-                                                                Text("Group")
-                                                                    .opacity(0.7)
-                                                                Text(String(element.group))
-                                                                    .font(.title3)
-                                                            }
-                    VStack(alignment: .leading) {
-                                                                Text("Phase")
-                                                                    .opacity(0.7)
-                                                                Text(element.phase)
-                                                                    .font(.title3)
-                                                            }
-                    VStack(alignment: .leading) {
-                        Text("Category")
-                            .opacity(0.7)
-                        Text(element.category)
-                            .font(.title3)
-                    }
-                    
-                    if (element.appearance != nil) {
-                                            VStack(alignment: .leading) {
-                                                Text("Appearance")
-                                                    .opacity(0.7)
-                                                Text(element.appearance ?? "")
-                                                    .font(.title3)
-                                            }
-                                        }
-                    
-                    
-                    
-                    VStack(alignment: .leading) {
-                        Text("Summary")
-                            .opacity(0.7)
-                        Text(element.summary)
-                            .font(.title3)
-                    }
-                }
+                    InfoView(title: "Summary", value: element.summary ?? "")
+                }.containerBackground(.mint.gradient, for: .tabView)
             }
         }
         .tabViewStyle(.verticalPage)
         .navigationTitle(element.name)
     }
 }
+
 
 #Preview {
     ElementView(element: data.elements[0])
