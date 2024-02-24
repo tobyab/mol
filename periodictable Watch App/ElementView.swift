@@ -7,12 +7,15 @@
 
 import SwiftUI
 
+var data = ReadData()
+
 struct ElementView: View {
+    var element: Element
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(element.name)
     }
 }
 
 #Preview {
-    ElementView()
+    ElementView(element: data.elements[0])
 }

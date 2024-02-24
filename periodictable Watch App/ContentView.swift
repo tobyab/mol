@@ -14,7 +14,7 @@ struct ContentView: View {
         NavigationView {
             List(data.elements) { element in
                 NavigationLink{
-                    ElementView()
+                    ElementView(element: element)
                 } label: {
                     VStack(alignment: .leading) {
                         Text(element.symbol)
