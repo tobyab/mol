@@ -11,11 +11,15 @@ struct Element: Codable, Identifiable {
     enum CodingKeys: CodingKey {
         case name
         case symbol
+        case phase
+        case category
     }
     
     var id = UUID()
     var name: String
     var symbol: String
+    var phase: String
+    var category: String
 }
 
 class ReadData: ObservableObject  {
