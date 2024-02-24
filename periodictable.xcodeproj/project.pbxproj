@@ -15,6 +15,9 @@
 		DA1E22EF2B8A59C300B6D94F /* periodictable_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E22EE2B8A59C300B6D94F /* periodictable_Watch_AppTests.swift */; };
 		DA1E22F92B8A59C300B6D94F /* periodictable_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E22F82B8A59C300B6D94F /* periodictable_Watch_AppUITests.swift */; };
 		DA1E22FB2B8A59C300B6D94F /* periodictable_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E22FA2B8A59C300B6D94F /* periodictable_Watch_AppUITestsLaunchTests.swift */; };
+		DA1E230C2B8A5A8E00B6D94F /* elements.json in Resources */ = {isa = PBXBuildFile; fileRef = DA1E230B2B8A5A8E00B6D94F /* elements.json */; };
+		DA1E230E2B8A5B2200B6D94F /* Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E230D2B8A5B2200B6D94F /* Elements.swift */; };
+		DA1E23102B8A617C00B6D94F /* ElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E230F2B8A617C00B6D94F /* ElementView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		DA1E22F42B8A59C300B6D94F /* periodictable Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "periodictable Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1E22F82B8A59C300B6D94F /* periodictable_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = periodictable_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		DA1E22FA2B8A59C300B6D94F /* periodictable_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = periodictable_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DA1E230B2B8A5A8E00B6D94F /* elements.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = elements.json; sourceTree = "<group>"; };
+		DA1E230D2B8A5B2200B6D94F /* Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elements.swift; sourceTree = "<group>"; };
+		DA1E230F2B8A617C00B6D94F /* ElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,9 @@
 				DA1E22DF2B8A59C100B6D94F /* ContentView.swift */,
 				DA1E22E12B8A59C300B6D94F /* Assets.xcassets */,
 				DA1E22E32B8A59C300B6D94F /* Preview Content */,
+				DA1E230B2B8A5A8E00B6D94F /* elements.json */,
+				DA1E230D2B8A5B2200B6D94F /* Elements.swift */,
+				DA1E230F2B8A617C00B6D94F /* ElementView.swift */,
 			);
 			path = "periodictable Watch App";
 			sourceTree = "<group>";
@@ -284,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA1E22E52B8A59C300B6D94F /* Preview Assets.xcassets in Resources */,
+				DA1E230C2B8A5A8E00B6D94F /* elements.json in Resources */,
 				DA1E22E22B8A59C300B6D94F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,7 +320,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA1E22E02B8A59C100B6D94F /* ContentView.swift in Sources */,
+				DA1E23102B8A617C00B6D94F /* ElementView.swift in Sources */,
 				DA1E22DE2B8A59C100B6D94F /* periodictableApp.swift in Sources */,
+				DA1E230E2B8A5B2200B6D94F /* Elements.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

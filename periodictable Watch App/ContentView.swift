@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var data = ReadData()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            List(data.elements) { element in
+                NavigationLink{
+                    ElementView()
+                } label: {
+                    VStack(alignment: .leading) {
+                        Text(element.symbol)
+                            .font(.title2)
+                        Text(element.name)
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
 
