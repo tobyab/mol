@@ -18,8 +18,12 @@ struct ContentView: View {
                 } label: {
                     VStack(alignment: .leading) {
                         Text(element.symbol)
-                            .font(.title2)
+                            .font(.caption)
+                            .fontWeight(.bold)
+                            .fontDesign(.rounded)
                         Text(element.name)
+                            .fontDesign(.rounded)
+                            .opacity(0.7)
                     }
                 }
             }
