@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA1E22D92B8A59C100B6D94F /* periodictable Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DA1E22D82B8A59C100B6D94F /* periodictable Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DA1E22DE2B8A59C100B6D94F /* periodictableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E22DD2B8A59C100B6D94F /* periodictableApp.swift */; };
+		DA1E22E02B8A59C100B6D94F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E22DF2B8A59C100B6D94F /* ContentView.swift */; };
+		DA1E22E22B8A59C300B6D94F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1E22E12B8A59C300B6D94F /* Assets.xcassets */; };
+		DA1E22E52B8A59C300B6D94F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1E22E42B8A59C300B6D94F /* Preview Assets.xcassets */; };
+		DA1E22EF2B8A59C300B6D94F /* periodictable_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E22EE2B8A59C300B6D94F /* periodictable_Watch_AppTests.swift */; };
+		DA1E22F92B8A59C300B6D94F /* periodictable_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E22F82B8A59C300B6D94F /* periodictable_Watch_AppUITests.swift */; };
+		DA1E22FB2B8A59C300B6D94F /* periodictable_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E22FA2B8A59C300B6D94F /* periodictable_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA1E22DA2B8A59C100B6D94F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA1E22CC2B8A59C100B6D94F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA1E22D72B8A59C100B6D94F;
+			remoteInfo = "periodictable Watch App";
+		};
+		DA1E22EB2B8A59C300B6D94F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA1E22CC2B8A59C100B6D94F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA1E22D72B8A59C100B6D94F;
+			remoteInfo = "periodictable Watch App";
+		};
+		DA1E22F52B8A59C300B6D94F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA1E22CC2B8A59C100B6D94F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA1E22D72B8A59C100B6D94F;
+			remoteInfo = "periodictable Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA1E23012B8A59C300B6D94F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DA1E22D92B8A59C100B6D94F /* periodictable Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA1E22D22B8A59C100B6D94F /* periodictable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = periodictable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1E22D82B8A59C100B6D94F /* periodictable Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "periodictable Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1E22DD2B8A59C100B6D94F /* periodictableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = periodictableApp.swift; sourceTree = "<group>"; };
+		DA1E22DF2B8A59C100B6D94F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA1E22E12B8A59C300B6D94F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA1E22E42B8A59C300B6D94F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA1E22EA2B8A59C300B6D94F /* periodictable Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "periodictable Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1E22EE2B8A59C300B6D94F /* periodictable_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = periodictable_Watch_AppTests.swift; sourceTree = "<group>"; };
+		DA1E22F42B8A59C300B6D94F /* periodictable Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "periodictable Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1E22F82B8A59C300B6D94F /* periodictable_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = periodictable_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		DA1E22FA2B8A59C300B6D94F /* periodictable_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = periodictable_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA1E22D52B8A59C100B6D94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1E22E72B8A59C300B6D94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1E22F12B8A59C300B6D94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA1E22CB2B8A59C100B6D94F = {
+			isa = PBXGroup;
+			children = (
+				DA1E22DC2B8A59C100B6D94F /* periodictable Watch App */,
+				DA1E22ED2B8A59C300B6D94F /* periodictable Watch AppTests */,
+				DA1E22F72B8A59C300B6D94F /* periodictable Watch AppUITests */,
+				DA1E22D32B8A59C100B6D94F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA1E22D32B8A59C100B6D94F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA1E22D22B8A59C100B6D94F /* periodictable.app */,
+				DA1E22D82B8A59C100B6D94F /* periodictable Watch App.app */,
+				DA1E22EA2B8A59C300B6D94F /* periodictable Watch AppTests.xctest */,
+				DA1E22F42B8A59C300B6D94F /* periodictable Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA1E22DC2B8A59C100B6D94F /* periodictable Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DA1E22DD2B8A59C100B6D94F /* periodictableApp.swift */,
+				DA1E22DF2B8A59C100B6D94F /* ContentView.swift */,
+				DA1E22E12B8A59C300B6D94F /* Assets.xcassets */,
+				DA1E22E32B8A59C300B6D94F /* Preview Content */,
+			);
+			path = "periodictable Watch App";
+			sourceTree = "<group>";
+		};
+		DA1E22E32B8A59C300B6D94F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA1E22E42B8A59C300B6D94F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA1E22ED2B8A59C300B6D94F /* periodictable Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA1E22EE2B8A59C300B6D94F /* periodictable_Watch_AppTests.swift */,
+			);
+			path = "periodictable Watch AppTests";
+			sourceTree = "<group>";
+		};
+		DA1E22F72B8A59C300B6D94F /* periodictable Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA1E22F82B8A59C300B6D94F /* periodictable_Watch_AppUITests.swift */,
+				DA1E22FA2B8A59C300B6D94F /* periodictable_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "periodictable Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA1E22D12B8A59C100B6D94F /* periodictable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1E23022B8A59C300B6D94F /* Build configuration list for PBXNativeTarget "periodictable" */;
+			buildPhases = (
+				DA1E22D02B8A59C100B6D94F /* Resources */,
+				DA1E23012B8A59C300B6D94F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1E22DB2B8A59C100B6D94F /* PBXTargetDependency */,
+			);
+			name = periodictable;
+			productName = periodictable;
+			productReference = DA1E22D22B8A59C100B6D94F /* periodictable.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		DA1E22D72B8A59C100B6D94F /* periodictable Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1E22FE2B8A59C300B6D94F /* Build configuration list for PBXNativeTarget "periodictable Watch App" */;
+			buildPhases = (
+				DA1E22D42B8A59C100B6D94F /* Sources */,
+				DA1E22D52B8A59C100B6D94F /* Frameworks */,
+				DA1E22D62B8A59C100B6D94F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "periodictable Watch App";
+			productName = "periodictable Watch App";
+			productReference = DA1E22D82B8A59C100B6D94F /* periodictable Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA1E22E92B8A59C300B6D94F /* periodictable Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1E23052B8A59C300B6D94F /* Build configuration list for PBXNativeTarget "periodictable Watch AppTests" */;
+			buildPhases = (
+				DA1E22E62B8A59C300B6D94F /* Sources */,
+				DA1E22E72B8A59C300B6D94F /* Frameworks */,
+				DA1E22E82B8A59C300B6D94F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1E22EC2B8A59C300B6D94F /* PBXTargetDependency */,
+			);
+			name = "periodictable Watch AppTests";
+			productName = "periodictable Watch AppTests";
+			productReference = DA1E22EA2B8A59C300B6D94F /* periodictable Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA1E22F32B8A59C300B6D94F /* periodictable Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1E23082B8A59C300B6D94F /* Build configuration list for PBXNativeTarget "periodictable Watch AppUITests" */;
+			buildPhases = (
+				DA1E22F02B8A59C300B6D94F /* Sources */,
+				DA1E22F12B8A59C300B6D94F /* Frameworks */,
+				DA1E22F22B8A59C300B6D94F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1E22F62B8A59C300B6D94F /* PBXTargetDependency */,
+			);
+			name = "periodictable Watch AppUITests";
+			productName = "periodictable Watch AppUITests";
+			productReference = DA1E22F42B8A59C300B6D94F /* periodictable Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA1E22CC2B8A59C100B6D94F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DA1E22D12B8A59C100B6D94F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DA1E22D72B8A59C100B6D94F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DA1E22E92B8A59C300B6D94F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DA1E22D72B8A59C100B6D94F;
+					};
+					DA1E22F32B8A59C300B6D94F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DA1E22D72B8A59C100B6D94F;
+					};
+				};
+			};
+			buildConfigurationList = DA1E22CF2B8A59C100B6D94F /* Build configuration list for PBXProject "periodictable" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA1E22CB2B8A59C100B6D94F;
+			productRefGroup = DA1E22D32B8A59C100B6D94F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA1E22D12B8A59C100B6D94F /* periodictable */,
+				DA1E22D72B8A59C100B6D94F /* periodictable Watch App */,
+				DA1E22E92B8A59C300B6D94F /* periodictable Watch AppTests */,
+				DA1E22F32B8A59C300B6D94F /* periodictable Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA1E22D02B8A59C100B6D94F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1E22D62B8A59C100B6D94F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1E22E52B8A59C300B6D94F /* Preview Assets.xcassets in Resources */,
+				DA1E22E22B8A59C300B6D94F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1E22E82B8A59C300B6D94F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1E22F22B8A59C300B6D94F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA1E22D42B8A59C100B6D94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1E22E02B8A59C100B6D94F /* ContentView.swift in Sources */,
+				DA1E22DE2B8A59C100B6D94F /* periodictableApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1E22E62B8A59C300B6D94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1E22EF2B8A59C300B6D94F /* periodictable_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1E22F02B8A59C300B6D94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1E22FB2B8A59C300B6D94F /* periodictable_Watch_AppUITestsLaunchTests.swift in Sources */,
+				DA1E22F92B8A59C300B6D94F /* periodictable_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA1E22DB2B8A59C100B6D94F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA1E22D72B8A59C100B6D94F /* periodictable Watch App */;
+			targetProxy = DA1E22DA2B8A59C100B6D94F /* PBXContainerItemProxy */;
+		};
+		DA1E22EC2B8A59C300B6D94F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA1E22D72B8A59C100B6D94F /* periodictable Watch App */;
+			targetProxy = DA1E22EB2B8A59C300B6D94F /* PBXContainerItemProxy */;
+		};
+		DA1E22F62B8A59C300B6D94F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA1E22D72B8A59C100B6D94F /* periodictable Watch App */;
+			targetProxy = DA1E22F52B8A59C300B6D94F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA1E22FC2B8A59C300B6D94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA1E22FD2B8A59C300B6D94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DA1E22FF2B8A59C300B6D94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"periodictable Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = periodictable;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luna.periodictable.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		DA1E23002B8A59C300B6D94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"periodictable Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = periodictable;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luna.periodictable.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		DA1E23032B8A59C300B6D94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = periodictable;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luna.periodictable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DA1E23042B8A59C300B6D94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = periodictable;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luna.periodictable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA1E23062B8A59C300B6D94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "luna.periodictable-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/periodictable Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/periodictable Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		DA1E23072B8A59C300B6D94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "luna.periodictable-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/periodictable Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/periodictable Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		DA1E23092B8A59C300B6D94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "luna.periodictable-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "periodictable Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		DA1E230A2B8A59C300B6D94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "luna.periodictable-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "periodictable Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA1E22CF2B8A59C100B6D94F /* Build configuration list for PBXProject "periodictable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1E22FC2B8A59C300B6D94F /* Debug */,
+				DA1E22FD2B8A59C300B6D94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA1E22FE2B8A59C300B6D94F /* Build configuration list for PBXNativeTarget "periodictable Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1E22FF2B8A59C300B6D94F /* Debug */,
+				DA1E23002B8A59C300B6D94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA1E23022B8A59C300B6D94F /* Build configuration list for PBXNativeTarget "periodictable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1E23032B8A59C300B6D94F /* Debug */,
+				DA1E23042B8A59C300B6D94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA1E23052B8A59C300B6D94F /* Build configuration list for PBXNativeTarget "periodictable Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1E23062B8A59C300B6D94F /* Debug */,
+				DA1E23072B8A59C300B6D94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA1E23082B8A59C300B6D94F /* Build configuration list for PBXNativeTarget "periodictable Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1E23092B8A59C300B6D94F /* Debug */,
+				DA1E230A2B8A59C300B6D94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA1E22CC2B8A59C100B6D94F /* Project object */;
+}
