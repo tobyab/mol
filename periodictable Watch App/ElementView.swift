@@ -39,7 +39,9 @@ struct ElementView: View {
                         Text(element.symbol)
                             .fontDesign(.rounded)
                         Text("•")
-                        Text(element.category)
+                        Text(String(element.atomicMass))
+                            .fontDesign(.rounded)
+                        Text("(g/mol)")
                             .fontDesign(.rounded)
                     }
                     .font(.caption)
@@ -48,15 +50,20 @@ struct ElementView: View {
             }
             Section {
                 List {
-                    InfoView(title: "Name", value: element.name)
-                    InfoView(title: "Phase", value: element.phase)
-                    InfoView(title: "Category", value: element.category)
-                    InfoView(title: "Atomic Mass", value: String(element.atomicMass ?? 0))
-                    
-                    if let appearance = element.appearance {
-                        InfoView(title: "Appearance", value: appearance)
-                    }
-                    InfoView(title: "Summary", value: element.summary ?? "")
+                    // this is so janky, pls enjoy :) i don't know how to swift
+                    InfoView(title: "Name", value: element.name, unit: "", phase: element.phase)
+                    InfoView(title: "Phase", value: element.phase, unit: "", phase: element.phase)
+                    InfoView(title: "Category", value: element.category, unit: "", phase: element.phase)
+                    InfoView(title: "Atomic Mass", value: String(element.atomicMass ), unit: "g/mol", phase: element.phase)
+                    InfoView(title: "Boiling Point", value: String(element.boil ?? 0), unit: "ºF", phase: element.phase)
+                    InfoView(title: "Density", value: String(element.density ?? 0), unit: "g/l", phase: element.phase)
+                    InfoView(title: "Molar Heat", value: String(element.molar_heat ?? 0), unit: "mol x K", phase: element.phase)
+                    InfoView(title: "Named By", value: element.namedBy ?? "", unit: "", phase: element.phase)
+                    InfoView(title: "Number", value: String(element.number), unit: "", phase: element.phase)
+                    InfoView(title: "Period", value: String(element.period), unit: "", phase: element.phase)
+                    InfoView(title: "Group", value: String(element.group), unit: "", phase: element.phase)
+                    InfoView(title: "Appearance", value: element.appearance ?? "", unit: "", phase: element.phase)
+                    InfoView(title: "Summary", value: element.summary ?? "", unit: "", phase: element.phase)
                 }.containerBackground(.mint.gradient, for: .tabView)
             }
         }

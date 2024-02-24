@@ -31,7 +31,7 @@ struct ContentView: View {
                                             .fontDesign(.rounded)
                                             .fontWeight(.semibold)
                                             .font(.subheadline)
-                                        Text(String(element.atomicMass ?? 0))
+                                        Text(String(element.atomicMass))
                                             .fontDesign(.rounded)
                                             .opacity(0.7)
                                             .font(.caption)
@@ -41,8 +41,8 @@ struct ContentView: View {
                         }
                     }
                 }
-            }.navigationTitle("Periodic Table").containerBackground(.mint.gradient, for: .tabView)
-        }
+            }.containerBackground(.mint.gradient, for: .tabView)
+        }.navigationTitle("Periodic Table")
     }
 }
 

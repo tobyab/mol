@@ -32,7 +32,7 @@ struct Element: Codable, Identifiable {
     var id = UUID().uuidString
     var name: String
     var appearance: String?
-    var atomicMass: Double?
+    var atomicMass: Double
     var boil: Double?
     var category: String
     var density: Double?
