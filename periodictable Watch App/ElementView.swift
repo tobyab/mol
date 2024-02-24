@@ -30,16 +30,26 @@ struct ElementView: View {
                         Text(element.phase)
                             .opacity(0.7)
                     }
+                    
                     Text(element.name)
                         .font(.title)
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         .fontDesign(.rounded)
-                    Text(element.name)
-                        .fontDesign(.rounded)
+                    HStack {
+                        Text(element.symbol)
+                            .fontDesign(.rounded)
+                        Text(element.discoveredBy)
+                    }.font(.caption)
                 }.containerBackground(.blue.gradient, for: .tabView)
             }
             Section {
                 List {
+                    VStack(alignment: .leading) {
+                        Text("Name")
+                            .opacity(0.7)
+                        Text(element.name)
+                            .font(.title3)
+                    }
                     VStack(alignment: .leading) {
                         Text("Name")
                             .opacity(0.7)

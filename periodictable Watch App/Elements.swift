@@ -10,16 +10,24 @@ import Foundation
 struct Element: Codable, Identifiable {
     enum CodingKeys: CodingKey {
         case name
+        case category
         case symbol
         case phase
-        case category
+        case source
+        case summary
+        case atomicMass
+        case discoveredBy
     }
     
     var id = UUID()
     var name: String
+    var category: String
     var symbol: String
     var phase: String
-    var category: String
+    var source: String
+    var summary: String
+    var atomicMass: Double
+    var discoveredBy: String
 }
 
 class ReadData: ObservableObject  {

@@ -17,11 +17,11 @@ struct ContentView: View {
                     ElementView(element: element)
                 } label: {
                     VStack(alignment: .leading) {
-                        Text(element.symbol)
+                        Text(element.name)
                             .font(.caption)
                             .fontWeight(.bold)
                             .fontDesign(.rounded)
-                        Text(element.name)
+                        Text(element.symbol)
                             .fontDesign(.rounded)
                             .opacity(0.7)
                     }
