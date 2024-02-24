@@ -52,7 +52,7 @@ struct ElementView: View {
                     InfoView(title: "Phase", value: element.phase)
                     InfoView(title: "Category", value: element.category)
                     InfoView(title: "Atomic Mass", value: String(element.atomicMass ?? 0))
-                    InfoView(title: "Molar Heat", value: String(element.molar_heat ?? 0))
+                    
                     if let appearance = element.appearance {
                         InfoView(title: "Appearance", value: appearance)
                     }

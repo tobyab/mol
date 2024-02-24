@@ -9,7 +9,6 @@ import Foundation
 
 struct Element: Codable, Identifiable {
     enum CodingKeys: CodingKey {
-        case id
         case name
         case appearance
         case atomicMass
@@ -30,25 +29,25 @@ struct Element: Codable, Identifiable {
         case shells
     }
 
-    var id = UUID()
+    var id = UUID().uuidString
     var name: String
+    var appearance: String?
+    var atomicMass: Double?
+    var boil: Double?
     var category: String
-    var symbol: String
+    var density: Double?
+    var discoveredBy: String?
+    var melt: Double?
+    var molar_heat: Double?
+    var namedBy: String?
+    var number: Int
+    var period: Int
+    var group: Int
     var phase: String
     var source: String?
     var summary: String?
-    var appearance: String?
-    var atomicMass: Double?
-    var molar_heat: Double?
-    var group: Int
-    var period: Int
-    var number: Int
-    var boil: Double?
-    var discoveredBy: String?
-    var shells: [Int]?
-    var density: Double?
-    var melt: Double?
-    var namedBy: String?
+    var symbol: String
+    var shells: [Int]
 }
 
 class ReadData: ObservableObject  {
@@ -61,13 +60,17 @@ class ReadData: ObservableObject  {
     
     func loadData()  {
         guard let url = Bundle.main.url(forResource: "elements", withExtension: "json")
-            else {
-                print("Json file not found")
-                return
-            }
+        else {
+            print("Json file not found")
+            return
+        }
         
-        let data = try? Data(contentsOf: url)
-        let elements = try? JSONDecoder().decode([Element].self, from: data!)
-        self.elements = elements!
+        do {
+            let data = try Data(contentsOf: url)
+            let elements = try JSONDecoder().decode([Element].self, from: data)
+            self.elements = elements
+        } catch {
+            print("Failed to decode JSON: \(error)")
+        }
     }
 }

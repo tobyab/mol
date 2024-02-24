@@ -31,7 +31,7 @@ struct ContentView: View {
                                             .fontDesign(.rounded)
                                             .fontWeight(.semibold)
                                             .font(.subheadline)
-                                        Text(String(element.atomicMass))
+                                        Text(String(element.atomicMass ?? 0))
                                             .fontDesign(.rounded)
                                             .opacity(0.7)
                                             .font(.caption)
