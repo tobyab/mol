@@ -15,8 +15,9 @@ struct Element: Codable, Identifiable {
         case phase
         case source
         case summary
+        case appearance
         case atomicMass
-        case discoveredBy
+        case group
     }
     
     var id = UUID()
@@ -26,8 +27,9 @@ struct Element: Codable, Identifiable {
     var phase: String
     var source: String
     var summary: String
+    var appearance: String?
     var atomicMass: Double
-    var discoveredBy: String
+    var group: Int
 }
 
 class ReadData: ObservableObject  {
@@ -48,6 +50,5 @@ class ReadData: ObservableObject  {
         let data = try? Data(contentsOf: url)
         let elements = try? JSONDecoder().decode([Element].self, from: data!)
         self.elements = elements!
-        
     }
 }

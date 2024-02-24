@@ -38,8 +38,12 @@ struct ElementView: View {
                     HStack {
                         Text(element.symbol)
                             .fontDesign(.rounded)
-                        Text(element.discoveredBy)
-                    }.font(.caption)
+                        Text("•")
+                        Text(element.category)
+                            .fontDesign(.rounded)
+                    }
+                    .font(.caption)
+                    .opacity(0.7)
                 }.containerBackground(.blue.gradient, for: .tabView)
             }
             Section {
@@ -51,9 +55,39 @@ struct ElementView: View {
                             .font(.title3)
                     }
                     VStack(alignment: .leading) {
-                        Text("Name")
+                                                                Text("Group")
+                                                                    .opacity(0.7)
+                                                                Text(String(element.group))
+                                                                    .font(.title3)
+                                                            }
+                    VStack(alignment: .leading) {
+                                                                Text("Phase")
+                                                                    .opacity(0.7)
+                                                                Text(element.phase)
+                                                                    .font(.title3)
+                                                            }
+                    VStack(alignment: .leading) {
+                        Text("Category")
                             .opacity(0.7)
-                        Text(element.name)
+                        Text(element.category)
+                            .font(.title3)
+                    }
+                    
+                    if (element.appearance != nil) {
+                                            VStack(alignment: .leading) {
+                                                Text("Appearance")
+                                                    .opacity(0.7)
+                                                Text(element.appearance ?? "")
+                                                    .font(.title3)
+                                            }
+                                        }
+                    
+                    
+                    
+                    VStack(alignment: .leading) {
+                        Text("Summary")
+                            .opacity(0.7)
+                        Text(element.summary)
                             .font(.title3)
                     }
                 }

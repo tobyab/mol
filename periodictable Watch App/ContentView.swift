@@ -17,13 +17,24 @@ struct ContentView: View {
                     ElementView(element: element)
                 } label: {
                     VStack(alignment: .leading) {
-                        Text(element.name)
-                            .font(.caption)
-                            .fontWeight(.bold)
-                            .fontDesign(.rounded)
-                        Text(element.symbol)
-                            .fontDesign(.rounded)
-                            .opacity(0.7)
+                        HStack {
+                            Text(element.symbol)
+                                .font(.title)
+                                .fontWeight(.bold)
+                                .fontDesign(.rounded)
+                                
+                            Spacer()
+                            VStack(alignment: .trailing) {
+                                Text(element.name)
+                                    .fontDesign(.rounded)
+                                    .fontWeight(.semibold)
+                                    .font(.subheadline)
+                                Text(String(element.atomicMass))
+                                    .fontDesign(.rounded)
+                                    .opacity(0.7)
+                                    .font(.caption)
+                            }
+                        }.padding(.horizontal)
                     }
                 }
             }
