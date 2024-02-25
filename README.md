@@ -1,4 +1,4 @@
-![A demo of me using mol on my watch!](https://github.com/tobyab/mol/assets/77097223/8a1be2a8-bb5e-48c2-99fd-cfbc816019c8)
+https://github.com/tobyab/mol/assets/77097223/3b6167a2-d9c3-4e54-8d39-067c960dc93e
 
 # mol — An Apple Watch App for the Periodic Table.
 
